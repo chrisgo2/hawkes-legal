@@ -1,0 +1,212 @@
+/*******************
+CSS RESET
+********************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #666;
+}
+
+.top_stripe {
+    height: 20px;
+}
+
+._bg_ox_red {
+    background-color: #970707
+}
+
+._content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+._page_content {
+    background-color: #fff;
+    min-height: 500px;
+
+    padding: 10px;
+	box-shadow: 0 0 10px #555;
+    margin-bottom: 30px;
+}
+
+._back_magic {
+    background-color: #1c1c1c;
+    height: 300px;
+
+    position: absolute;
+    z-index: -50;
+    top: 20px;
+    left: 0px;
+    width: 100%;
+}
+
+._padding_wings_20 {
+    padding: 0px 20px;
+}
+
+._margin_left_10 { margin-left: 10px; }
+._margin_left_20 { margin-left: 20px; }
+._margin_left_30 { margin-left: 30px; }
+._margin_left_40 { margin-left: 40px; }
+._margin_left_50 { margin-left: 50px; }
+
+.header {
+    margin: 20px 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.nav ul {
+}
+
+.nav li {
+    display: inline;
+    padding: 3px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav li a {
+    color: #fff;
+    font-size: 11px;
+}
+
+.footer {  
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 15px 25px; 
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.spacer { height: 20px; clear: both; }
+
+.pull_left { float: left; }
+.pull_right { float: right; }
+
+.topic_header { color: #970707; text-transform: uppercase; font-weight: bold; }
+.topic_content { margin-top: 10px; }
+
+._page_content_links { width: 25%; }
+._page_content_main { width: 65%; text-align: justify;  }
+._page_content_main_70 { width: 70%; text-align: justify;  }
+
+._page_content_banner_inner { width: 640px; }
+
+._page_content_links ul { 
+    padding: 0px;
+}
+
+._page_content_links ul li { 
+    display: block;
+    padding: 7px 5px;
+    border-bottom: dotted 1px #666;
+}
+
+._page_content_links ul li a { 
+    color: #666;
+}
+
+._page_content_links ul li a:hover { 
+    color: #1c1c1c;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#people ul {}
+#people ul li {
+    display: block;
+    padding: 7px 5px;
+}
+
+#people ul li a{
+    color: #970707
+}
+
+
+#practice_areas {}
+#practice_areas .topic_header {
+    text-align: left;
+    height: 35px;
+}
+
+._box {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+/****** slider crap ********/
+#slides {
+z-index: 100;
+}
+
+#slides .next,#slides .prev {
+}
+
+.slides_container {
+width: 980px;
+height: 303px;
+overflow: hidden;
+position: relative;
+}
+
+#slides .next {
+}
+
+
